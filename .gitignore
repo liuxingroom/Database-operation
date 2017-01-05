@@ -12,3 +12,5 @@
 hs_err_pid*
 /H2Test/.settings
 /H2Test/bin
+/H2Test/.classpath
+/H2Test/.project
