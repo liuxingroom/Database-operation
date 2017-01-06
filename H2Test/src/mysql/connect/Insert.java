@@ -59,13 +59,17 @@ public class Insert {
 			e.printStackTrace();
 		}finally{
 			try {
+				//关闭结果集的链接
 				resultSet.close();
+				//关闭sql语句执行对象的链接
 				preparedStatement.close();
+				//关闭数据库连接
 				connection.close();
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
 			
 		}
+		
 	}
 }
